@@ -1,0 +1,58 @@
+p {
+    font-size: 1em;
+}
+
+.bar {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.bar:hover {
+    opacity:0.5;
+}
+
+#bar-A {
+    
+    min-height: 5.0em;
+    background-color: green;
+}
+
+#bar-B {
+    
+    height: 10.0em;
+    background-color: blue;
+}
+
+#bar-C {
+    height: 20em;
+    background-color: red; 
+}
+
+.bar-chart {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    max-width: 600px;
+    max-height: 80%;
+    min-height: 350px;
+    min-width: 300px;
+    border: solid gray;
+    margin: auto;
+}
+
+.stat {
+    margin: 5px;
+}
+
+.stats-container {
+    min-width: 300px;
+    min-height: 20px;
+    width: 600px;
+    margin: auto;
+    min-height: 20%;
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+}
